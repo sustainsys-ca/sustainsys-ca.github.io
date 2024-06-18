@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import { usePathname } from 'next/navigation'
 import Navbar from "./navbar";
+import Footer from "./footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({
           <main>
             {children}
           </main>
+          <Footer></Footer>
         </body>
       </html>
   );
