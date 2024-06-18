@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
         <div>
             <footer className="rounded-sm flex flex-row justify-evenly bg-mikado">
                 <div id="Partner Universities" className="flex flex-col">
                     <h1 className="font-bold">Partner Universities</h1>
-                    <a>University X</a>
+                    <Link href={"https://www.mcgill.ca/"} target="_blank">McGill University</Link>
                 </div>
                 <div id="Program" className="flex flex-col">
                     <h1 className="font-bold">Program</h1>
