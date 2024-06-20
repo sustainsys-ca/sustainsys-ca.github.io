@@ -1,14 +1,11 @@
 import { createClient, groq } from "next-sanity";
+import { Collaborator } from "../types/Collaborator";
+import clientConfig from './config/client-config'
 
-export async function getCollaborators() {
-    const client = createClient({
-        projectId: "k9s7zkou",
-        dataset: "production",
-        apiVersion: "2024-06-08",
-    });
-    console.log("hi")
+export async function getCollaborators() : Promise<Collaborator[]> {
+    const client = createClient(clientConfig);
     return client.fetch(
-        groq`*[_type == "collaborator"]{
+        groq`*[_type == "collaborators"]{
         _id,
         _createdAt,
         name,

@@ -10,6 +10,7 @@ import schemas from "./sanity/schemas";
     basePath: "/admin",
     plugins: [structureTool()],
     schema: {types: schemas},
+    useCdn: false
  })
  
  export default config;
