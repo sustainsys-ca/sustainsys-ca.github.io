@@ -9,7 +9,7 @@ import schemas from "./sanity/schemas";
     apiVersion: "2024-06-08",
     basePath: "/admin",
     plugins: [structureTool()],
-    schema: {types: schemas}
+    schema: {types: schemas},
  })
  
  export default config;

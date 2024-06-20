@@ -26,12 +26,15 @@ export default async function Collaborators() {
             <h1 className="text-3xl font-bold mb-4">{collaborators.name}</h1>
             <p className="mb-8">{collaborators.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                {collaborators.members.map((member) => {
+                {collaborators.map((member) => {
+                    console.log(member.name)
                     return (
                         <TeamCard 
+                            key={member._id}
                             name={member.name} 
                             university={member.university} 
-                            image={member.image} 
+                            // image={member.image} 
+                            image="" 
                             linkedin={member.linkedin}
                         />
                     )   

@@ -6,7 +6,7 @@ export async function getCollaborators() {
         dataset: "production",
         apiVersion: "2024-06-08",
     });
-
+    console.log("hi")
     return client.fetch(
         groq`*[_type == "collaborator"]{
         _id,
@@ -14,7 +14,8 @@ export async function getCollaborators() {
         name,
         "slug": slug.current,
         "image": image.asset->url,
-        linkedin 
+        university,
+        linkedin
         }`
     )
 

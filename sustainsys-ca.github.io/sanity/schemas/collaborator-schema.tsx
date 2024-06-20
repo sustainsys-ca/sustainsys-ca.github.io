@@ -28,6 +28,11 @@ const collaborator = {
       ]
     },
     {
+      name: "university",
+      title: "University",
+      type: "string"
+    },
+    {
       name: "linkedin",
       title: "Linkedin",
       type: "url"
