@@ -5,7 +5,7 @@ import clientConfig from './config/client-config'
 export async function getCollaborators() : Promise<Collaborator[]> {
     const client = createClient(clientConfig);
     return client.fetch(
-        groq`*[_type == "collaborators"]{
+        groq`*[_type == "collaborator"]{
         _id,
         _createdAt,
         name,
@@ -15,5 +15,4 @@ export async function getCollaborators() : Promise<Collaborator[]> {
         linkedin
         }`
     )
-
 }
