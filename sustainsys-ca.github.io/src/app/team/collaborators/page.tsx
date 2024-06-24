@@ -23,8 +23,12 @@ export default async function Collaborators() {
     // }
     return (
         <div className="mx-8 my-5">
-            <h1 className="text-3xl font-bold mb-4">Collaborators</h1>
-            <p className="mb-8">Collaborators are people who have contributed to the project in some way, but are not part of the core team. They may have contributed code, documentation, or other resources.</p>
+            <h1 className="text-3xl font-bold mb-4">
+                Collaborators
+            </h1>
+            <p className="mb-8">
+                Collaborators are people who have contributed to the project in some way, but are not part of the core team. They may have contributed code, documentation, or other resources.
+            </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {collaborators.map((member) => {
                     return (
