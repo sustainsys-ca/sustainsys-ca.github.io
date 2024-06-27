@@ -19,7 +19,7 @@ export default function Navbar() {
                         />
                         SustainSys
                     </Link>
-                    <Link href="/about" className={`text-xl ${pathname === '/about' ? 'border-b-2 border-black' : 'hover:border-black border-b-2 border-b-transparent'}`}>
+                    <Link href="/about" className={`text-xl ${pathname.includes('/about') ? 'border-b-2 border-black' : 'hover:border-black border-b-2 border-b-transparent'}`}>
                         About
                     </Link>
                     <Link href="/events" className={`text-xl ${pathname === '/events' ? 'border-b-2 border-black' : 'hover:border-black border-b-2 border-b-transparent'}`}>
@@ -34,8 +34,11 @@ export default function Navbar() {
                             </svg>
                         </button>
                         <div className="invisible absolute z-50 flex flex-col group-hover:visible group-hover:opacity-100 bg-white dark:bg-gray-800 rounded-lg shadow-lg opacity-0 transition-opacity duration-200 w-max">
+                            <Link href="/team/coreTeam" className="my-2 block py-1 px-4 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                Core Team
+                            </Link>
                             <Link href="/team/coapplicants" className="my-2 block py-1 px-4 hover:bg-gray-100 dark:hover:bg-gray-700">
-                                Co-Applicants
+                                Core Faculty Team
                             </Link>
                             <Link href="/team/collaborators" className="my-2 block py-1 px-4 hover:bg-gray-100 dark:hover:bg-gray-700">
                                 Collaborators
