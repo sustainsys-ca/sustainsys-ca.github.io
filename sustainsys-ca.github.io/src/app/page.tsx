@@ -12,9 +12,14 @@ export default function Home() {
           alt="Picture of the author"
           className="mb-4 mt-6"
         />
-        <p className="text-textgreen text-3xl mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
+        <div className="text-container flex">
+          <p className="text-everglade text-3xl mb-8 font-bold">
+            Sustainable&nbsp;
+          </p>
+          <p className="text-3xl mb-8 font-bold">
+            Data Systems for Data Science (SDSDS) CREATE
+          </p>
+        </div>
       </div>
       <div id="Small-Descriptions" className="flex flex-row justify-evenly flex-wrap pt-11 bg-everglade text-white pb-20">
         <div id="Goal1" className="flex flex-col items-center">
