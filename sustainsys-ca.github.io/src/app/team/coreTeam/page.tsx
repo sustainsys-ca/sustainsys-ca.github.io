@@ -3,6 +3,10 @@ import TeamCard from "../teamcard";
 export default function coreTeam() {
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mx-8 my-11">
+            <div>
+                <h1 className="text-3xl font-bold text-center text-everglade">
+                    Director
+                </h1>
                 <TeamCard 
                 key="Bettina Kemme"
                 name="Bettina Kemme"
@@ -11,5 +15,6 @@ export default function coreTeam() {
                 linkedin="https://www.linkedin.com/in/bettina-kemme-63115b47/"
                 />
             </div>
+        </div>
     )
 }
