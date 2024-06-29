@@ -16,10 +16,10 @@ export default function Home() {
           className="mb-4 mt-6"
         />
         <div className="text-container text-center">
-          <p className="text-everglade lg:text-3xl mb-2 font-bold sm:text-lg">
-            Sustainable
-          </p>
           <p className="lg:text-3xl mb-2 font-bold sm:text-lg">
+            <p className="text-everglade lg:text-3xl mb-2 font-bold sm:text-lg inline mr-2">
+              Sustainable
+            </p>
             Data Systems for Data Science (SDSDS) CREATE
           </p>
         </div>
