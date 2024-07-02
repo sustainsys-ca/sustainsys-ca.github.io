@@ -35,14 +35,17 @@ export default function Navbar() {
                         <Link href="/team/coreTeam" className="block py-2 px-4 hover:bg-gray-100 rounded-t-lg">
                             Core Team
                         </Link>
-                        <Link href="/team/coapplicants" className="block py-2 px-4 hover:bg-gray-100">
-                            Core Faculty Team
+                        <Link href="/team/trainees" className="block py-2 px-4 hover:bg-gray-100">
+                            Trainees
                         </Link>
                         <Link href="/team/collaborators" className="block py-2 px-4 hover:bg-gray-100 rounded-b-lg">
                             Collaborators
                         </Link>
                     </div>
                 </div>
+                <Link href="/apply" className={`text-lg ${pathname === '/apply' ? 'border-b-2 border-black' : 'hover:text-lightgreen'}`}>
+                    Apply
+                </Link>
             </nav>
         </header>
     )

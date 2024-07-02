@@ -3,6 +3,7 @@ import Introduction from "./Components/introduction";
 import CourseWork from "./Components/courseWork";
 import Workshops from "./Components/workshops";
 import Skills from "./Components/skills";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,11 +18,16 @@ export default function Home() {
         />
         <div className="text-container text-center">
           <p className="lg:text-3xl mb-2 font-bold sm:text-lg">
-            <p className="text-everglade lg:text-3xl mb-2 font-bold sm:text-lg inline mr-2">
+            <span className="text-everglade lg:text-3xl mb-2 font-bold sm:text-lg inline mr-2">
               Sustainable
-            </p>
+            </span>
             Data Systems for Data Science (SDSDS) CREATE
           </p>
+          <button className="py-2 px-4 bg-everglade text-white font-semibold rounded-lg shadow-md hover:bg-lightgreen focus:outline-none focus:ring-2 focus:ring-lightgreen focus:ring-opacity-75">
+            <Link href="/apply">
+              Apply!
+            </Link>
+          </button>
         </div>
       </header>
 
