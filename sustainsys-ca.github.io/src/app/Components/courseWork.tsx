@@ -1,3 +1,5 @@
+'use client';
+import { motion } from "framer-motion";
 export default function CourseWork() {
     return (
       <div className="flex-1 container mx-auto p-8 mb-16">

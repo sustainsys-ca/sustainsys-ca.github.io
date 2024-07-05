@@ -35,6 +35,7 @@ export default async function Collaborators() {
                 {industrialCollaborators.members.map((member) => {
                     return (
                         <Image
+                            key={member.name}
                             src= {member.image}
                             alt={member.name} 
                             width={200}

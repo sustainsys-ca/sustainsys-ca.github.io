@@ -23,7 +23,8 @@ module.exports = {
       "tuftbush":"#FFE2CC",
       "everglade":"#183E32",
       "mikado":"#F0EDE9",
-      "lightgreen": "#2E7A67"
+      "lightgreen": "#2E7A67",
+      "lemonchiffon": "#FFFACD",
     }
   },
   plugins: [],
