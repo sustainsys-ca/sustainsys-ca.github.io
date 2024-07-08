@@ -21,9 +21,9 @@ module.exports = {
       indigo: colors.indigo,
       yellow: colors.yellow,
       "tuftbush":"#FFE2CC",
-      "everglade":"#183E32",
+      "everglade":"#0D812B",
       "mikado":"#F0EDE9",
-      "lightgreen": "#2E7A67",
+      "lightgreen": "#1CBB65",
       "lemonchiffon": "#FFFACD",
     }
   },

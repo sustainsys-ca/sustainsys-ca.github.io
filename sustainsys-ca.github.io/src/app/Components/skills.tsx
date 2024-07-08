@@ -14,6 +14,7 @@ export default function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
+            className="border-black border-2 p-4 rounded-lg"
           >
             Throughout their studies, students will get various opportunities for individualized training and support.
           </motion.p>
@@ -22,6 +23,7 @@ export default function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
+            className="border-black border-2 p-4 rounded-lg"
           >
             We will encourage them to do <strong>industrial internships</strong> that will help them align their research with industry relevance.
           </motion.p>
@@ -30,6 +32,7 @@ export default function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
+            className="border-black border-2 p-4 rounded-lg"
           >
             They will attend the <strong>universities’ teaching assistant training programs</strong> and the <strong>university’s professional skills training programs</strong> in order to become the teachers and trainers of tomorrow.
           </motion.p>
@@ -38,6 +41,7 @@ export default function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
+            className="border-black border-2 p-4 rounded-lg"
           >
             They will be encouraged to <strong>visit</strong> other labs and have <strong>co-supervision</strong> in order to provide them with different expertise during their research. And finally, other students will have an additional <strong>mentor</strong> ensuring equal opportunity no matter what backgrounds the students have.
           </motion.p>

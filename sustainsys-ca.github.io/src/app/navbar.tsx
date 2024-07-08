@@ -19,7 +19,7 @@ export default function Navbar() {
 
     return (
         <header className="flex items-center py-2 px-4 lg:px-8 bg-mikado border-b border-everglade">
-            <Link href="/" className="flex items-center text-2xl font-bold bg-gradient-to-r from-everglade to-lightgreen bg-clip-text text-transparent mr-6">
+            <Link href="/" className="flex items-center text-2xl font-bold bg-clip-text text-transparent mr-6 bg-lightgreen hover:bg-everglade">
                 <Image
                     src="/Logo.jpeg"
                     width={50}
