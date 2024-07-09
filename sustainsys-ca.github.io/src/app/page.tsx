@@ -9,16 +9,19 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div id="Container" className="min-h-screen flex flex-col">
+    <div id="Container" className="min-h-screen flex flex-col font-roboto">
       <header className="About-Container flex flex-col items-center justify-center bg-mikado w-full h-3/4 border-b-4 border-everglade/50 p-4 pt-11">
         <Image
           src="/Logo.jpeg"
           width={200}
           height={200}
           alt="Picture of the author"
-          className="mb-4 mt-6"
+          className="mt-6"
         />
         <div className="text-container text-center mb-11 mt-11">
+          <h1 className="text-5xl font-bold mb-11">
+            SustainSys
+          </h1>
           <p className="lg:text-3xl mb-2 font-bold sm:text-lg">
             <span className="text-everglade lg:text-3xl mb-2 font-bold sm:text-lg inline mr-2">
               Sustainable

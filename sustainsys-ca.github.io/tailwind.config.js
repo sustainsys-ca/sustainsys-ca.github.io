@@ -25,7 +25,10 @@ module.exports = {
       "mikado":"#F0EDE9",
       "lightgreen": "#1CBB65",
       "lemonchiffon": "#FFFACD",
-    }
+    },
+    fontFamily: {
+      'roboto': ['"Roboto", sans-serif'],
+    },
   },
   plugins: [],
 }
