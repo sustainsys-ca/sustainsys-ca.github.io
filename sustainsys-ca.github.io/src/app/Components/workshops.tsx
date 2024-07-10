@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Workshops() {
   return (
-    <div className="w-full bg-lightgreen pb-16">
+    <div className="w-full bg-lightgreen/10 pb-16 border-2">
       <div className="flex-1 container mx-auto p-8">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold mb-3 pt-28">Experience and Academic Opportunities</h1>

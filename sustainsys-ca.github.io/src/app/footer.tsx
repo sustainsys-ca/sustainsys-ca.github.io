@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Footer() {
     return (
-        <footer className="bg-mikado rounded-sm py-6">
+        <footer className="bg-gray-400 rounded-sm py-6 text-white">
             <div className="container mx-auto flex flex-wrap justify-evenly">
                 <div className="flex flex-col items-center space-y-3">
                     <h2 className="font-bold mb-2">Partner Universities</h2>

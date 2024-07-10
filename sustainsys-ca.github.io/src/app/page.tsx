@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div id="Container" className="min-h-screen flex flex-col font-roboto">
-      <header className="About-Container flex flex-col items-center justify-center bg-mikado w-full h-3/4 border-b-4 border-everglade/50 p-4 pt-11">
+      <header className="About-Container flex flex-col items-center justify-center w-full h-3/4 border-b-4 border-everglade/50 p-4 pt-11">
         <Image
           src="/Logo.jpeg"
           width={200}
