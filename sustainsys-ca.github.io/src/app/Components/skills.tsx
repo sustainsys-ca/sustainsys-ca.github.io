@@ -1,5 +1,6 @@
 'use client';
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Skills() {
   return (
@@ -16,6 +17,13 @@ export default function Skills() {
             viewport={{ once: true }}
             className="bg-white border border-black p-6 rounded-lg shadow-lg"
           >
+            <Image
+            src="/seed.svg"
+            alt="Workshops"
+            width={20}
+            height={20}
+            className=""
+            />           
             <p>Throughout their studies, students will get various opportunities for individualized training and support.</p>
           </motion.div>
           <motion.div
@@ -25,16 +33,30 @@ export default function Skills() {
             viewport={{ once: true }}
             className="bg-white border border-black p-6 rounded-lg shadow-lg"
           >
-            <p>We will encourage them to do <strong>industrial internships</strong> that will help them align their research with industry relevance.</p>
+            <Image
+            src="/seed.svg"
+            alt="Workshops"
+            width={20}
+            height={20}
+            className=""
+            /> 
+            <p>We will encourage them to do <span className="decoration-lightgreen underline decoration-2">industrial internships</span> that will help them align their research with industry relevance.</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
-            className="bg-white border border-black p-6 rounded-lg shadow-lg"
+            className="bg-white border border-black p-6 rounded-lg shadow-lg leading-loose"
           >
-            <p>They will attend the <strong>universities’ teaching assistant training programs</strong> and the <strong>university’s professional skills training programs</strong> in order to become the teachers and trainers of tomorrow.</p>
+            <Image
+            src="/seed.svg"
+            alt="Workshops"
+            width={20}
+            height={20}
+            className=""
+            /> 
+            <p>They will attend the <span className="decoration-lightgreen underline decoration-2">universities’ teaching assistant training programs</span> and the <span className="decoration-lightgreen underline decoration-2">university’s professional skills training programs</span> in order to become the teachers and trainers of tomorrow.</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -43,7 +65,14 @@ export default function Skills() {
             viewport={{ once: true }}
             className="bg-white border border-black p-6 rounded-lg shadow-lg"
           >
-            <p>They will be encouraged to <strong>visit</strong> other labs and have <strong>co-supervision</strong> in order to provide them with different expertise during their research. And finally, other students will have an additional <strong>mentor</strong> ensuring equal opportunity no matter what backgrounds the students have.</p>
+            <Image
+            src="/seed.svg"
+            alt="Workshops"
+            width={20}
+            height={20}
+            className=""
+            /> 
+            <p>They will be encouraged to <span className="decoration-lightgreen underline decoration-2">visit</span> other labs and have <span className="decoration-lightgreen underline decoration-2">co-supervision</span> in order to provide them with different expertise during their research. And finally, other students will have an additional <span className="decoration-lightgreen underline decoration-2">mentor</span> ensuring equal opportunity no matter what backgrounds the students have.</p>
           </motion.div>
         </div>
       </div>
