@@ -6,6 +6,7 @@ import Workshops from "./Components/workshops";
 import Skills from "./Components/skills";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import ScrollToTopButton from "./Components/topButton";
 
 export default function Home() {
   return (
@@ -51,6 +52,7 @@ export default function Home() {
         <Workshops />
         <Skills />
       </main>
+      <ScrollToTopButton/>
     </div>
   );
 }
