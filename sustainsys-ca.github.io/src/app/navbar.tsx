@@ -30,7 +30,7 @@ export default function Navbar() {
                 SustainSys
             </Link>
             <nav className="flex items-center space-x-6">
-                <Link href="#About" className='text-lg hover:text-lightgreen'>
+                <Link href="/#About" className='text-lg hover:text-lightgreen'>
                     About
                 </Link>
                 <Link href="/events" className={`text-lg ${pathname === '/events' ? 'border-b-2 border-black' : 'hover:text-lightgreen'}`}>
