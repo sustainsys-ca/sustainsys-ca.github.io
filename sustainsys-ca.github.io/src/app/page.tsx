@@ -46,7 +46,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="flex flex-col items-center justify-center">
+      <main className="flex flex-col items-center justify-center" id="About">
         <Introduction />
         <CourseWork />
         <Workshops />

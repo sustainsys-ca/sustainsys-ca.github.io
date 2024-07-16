@@ -1,20 +1,12 @@
 "use client"
 import { useState } from "react";
 import Image from 'next/image';
+import upcomingEvents from "../../../AllMembers/upcomingEvents";
+import pastEvents from "../../../AllMembers/pastEvents";
 
 export default function Events() {
     const [activeTab, setActiveTab] = useState("upcoming");
-
-    const upcomingEvents = [
-        { date: "July 15, 2024", title: "AI in Sustainability Workshop", description: "A workshop exploring the use of AI in sustainable practices.", imageUrl: "/images/ai_workshop.jpg" },
-        { date: "August 3, 2024", title: "Data Science Conference", description: "An annual conference for data science professionals and enthusiasts.", imageUrl: "/images/data_science_conference.jpg" },
-    ];
-
-    const pastEvents = [
-        { date: "May 10, 2024", title: "Machine Learning Basics Webinar", description: "A beginner-friendly webinar on the basics of machine learning.", imageUrl: "/images/ml_webinar.jpg" },
-        { date: "June 5, 2024", title: "Climate Change and Data Symposium", description: "A symposium discussing the role of data in combating climate change.", imageUrl: "/images/climate_symposium.jpg" },
-    ];
-
+    
     return (
         <div className="min-h-screen flex flex-col items-center p-4 bg-white">
             <header className="w-full max-w-3xl py-4">
@@ -42,8 +34,8 @@ export default function Events() {
                                 <Image
                                     src={""}
                                     alt={event.title}
-                                    width={100}
-                                    height={100}
+                                    width={250}
+                                    height={250}
                                     className="rounded-lg mr-4"
                                 />
                                 <div>
@@ -58,14 +50,14 @@ export default function Events() {
                         )}
                     </div>
                 ) : (
-                    <div className="flex flex-col items-center space-y-4">
+                    <div className="flex flex-col items-center space-y-4 mb-8">
                         {pastEvents.map((event, index) => (
                             <div key={index} className="bg-mikado p-4 rounded-lg shadow-md w-full flex">
                                 <Image
                                     src={event.imageUrl}
                                     alt={event.title}
-                                    width={100}
-                                    height={100}
+                                    width={250}
+                                    height={250}
                                     className="rounded-lg mr-4"
                                 />
                                 <div>
