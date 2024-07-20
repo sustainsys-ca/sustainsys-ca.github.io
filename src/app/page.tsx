@@ -29,7 +29,7 @@ export default function Home() {
             </span>
             Data Systems for Data Science (SDSDS) CREATE
           </p>
-          <motion.button
+          {/* <motion.button
             initial={{ opacity: 0.6 }}
             whileHover={{
               scale: 1.2,
@@ -42,7 +42,7 @@ export default function Home() {
           <Link href="/apply">
               Apply!
             </Link>
-          </motion.button>
+          </motion.button> */}
         </div>
       </header>
 
