@@ -1,5 +1,6 @@
 const upcomingEvents = [
-    { date: "July 15, 2024", title: "AI in Sustainability Workshop", description: "A workshop exploring the use of AI in sustainable practices.", imageUrl: "/images/ai_workshop.jpg" },
-    { date: "August 3, 2024", title: "Data Science Conference", description: "An annual conference for data science professionals and enthusiasts.", imageUrl: "/images/data_science_conference.jpg" },
+    // Example { date: "July 15, 2024", title: "Title here", description: "Description here", imageUrl: "/events/<image_here>" },
+    // {} start here or by the example below:
+    { date: "August 3, 2024", title: "TBA", description: "TBA", imageUrl: "/events/<image_here>" },
 ];
 export default upcomingEvents;

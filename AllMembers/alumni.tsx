@@ -3,7 +3,7 @@ const alumni = {
     description: '',
     members: [
         {
-            name: 'John Doe',
+            name: '',
             university: '',
             image: '',
             linkedin: ''
