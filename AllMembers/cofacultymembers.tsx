@@ -31,7 +31,7 @@ const coFacultyMembers = {
             university: 'University of Waterloo',
             image: '/coreTeam/semihsalihoglu.jpeg',
             linkedin: 'https://www.linkedin.com/in/semih-saliho%C4%9Flu-0512612a/'
-        },
+        }
     ]
 };
 export default coFacultyMembers;
