@@ -13,7 +13,7 @@ export default function coreTeam() {
                     key="Bettina Kemme"
                     name="Bettina Kemme"
                     university="McGill University"
-                    image="/coreteam/bettinakemme.jpeg"
+                    image="/coreTeam/bettinakemme.jpeg"
                     linkedin="https://www.linkedin.com/in/bettina-kemme-63115b47/"
                     />
                 </div>
