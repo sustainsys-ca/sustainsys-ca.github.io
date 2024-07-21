@@ -4,7 +4,7 @@ const coFacultyMembers = {
     members: [
         {
             name: 'Essam Mansour',
-            university: 'Concordia University',
+            university: 'Concordia Universit',
             image: '/coreTeam/essammansour.jpeg',
             linkedin: 'https://www.linkedin.com/in/emansour/'
         },
