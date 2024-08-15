@@ -27,11 +27,7 @@ export default function Home() {
             <span className="text-everglade lg:text-3xl mb-2 font-bold sm:text-lg inline mr-2">
               Sustainable
             </span>
-            able Data 
-            <span className="text-everglade lg:text-3xl mb-2 font-bold sm:text-lg inline mr-2">
-              Sys
-            </span>
-            tems for Data Science (SDSDS) CREATE
+            Data Systems for Data Science (SDSDS) CREATE
           </p>
           {/* <motion.button
             initial={{ opacity: 0.6 }}
