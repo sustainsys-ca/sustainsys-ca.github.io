@@ -19,7 +19,7 @@ These are the files in the website, but the only thing important for this step i
 
 Start by clicking on it which will lead to a similar page with other options:
 
-<img width="1440" alt="Screenshot 2024-07-21 at 4 53 56 PM" src="https://github.com/user-attachments/assets/8cca1aa9-1e51-462f-92f5-cf474d06f838">2
+<img width="1440" alt="Screenshot 2024-07-21 at 4 53 56 PM" src="https://github.com/user-attachments/assets/8cca1aa9-1e51-462f-92f5-cf474d06f838">
 
 You should see the same files as the picture above, one for each type of member, and 2 files for past events and upcoming events respectively, simply click on the one you want to add entities to,
 for the sake of an example I will show you how to add a co-faculty member, so I will click on `cofacultymembers.tsx`:
