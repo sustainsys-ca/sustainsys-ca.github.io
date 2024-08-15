@@ -3,7 +3,7 @@ const graduateStudents = {
     description: '',
     members: [
         {
-            name: '',
+            name: 'x',
             university: '',
             image: '',
             linkedin: ''
