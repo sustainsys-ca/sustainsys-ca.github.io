@@ -4,6 +4,7 @@ const coFacultyMembers = {
     members: [
         {
             name: 'Essam Mansour',
+            <a href="https://www.mcgill.ca/" target="_blank" className="text-blue-600 hover:underline">McGill University</a>
             university: 'Concordia University',
             image: '/coreTeam/essammansour.jpeg',
             linkedin: 'https://www.linkedin.com/in/emansour/'
@@ -21,7 +22,7 @@ const coFacultyMembers = {
             linkedin: 'https://www.linkedin.com/in/natalie-enright-jerger-7193a54/'
         },
         {
-            name: 'Oana Balmau',
+            name: <a href="https://sites.google.com/view/oanabalmau"> Oana Balmau </a>,
             university: 'McGill University',
             image: '/coreTeam/oanabalmau.jpeg',
             linkedin: 'https://www.linkedin.com/in/oanabalmau/'
