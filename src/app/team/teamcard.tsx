@@ -18,7 +18,7 @@ export default function TeamCard({ name, university, image, linkedin }: TeamCard
                 className="rounded-md mx-auto"
             />
             <div className="bg-white p-4 rounded-md">
-                <a href="https://sites.google.com/view/oanabalmau"  className="text-xl font-semibold">{name}</a>
+                <h3  className="text-xl font-semibold">{name}</h3>
                 <p className="text-gray-600">{university}</p>
                 <a href={linkedin} target="_blank" rel="noopener noreferrer" className="inline-block mt-2">
                     <Image 
