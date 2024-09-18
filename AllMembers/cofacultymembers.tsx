@@ -21,7 +21,7 @@ const coFacultyMembers = {
             linkedin: 'https://www.linkedin.com/in/natalie-enright-jerger-7193a54/'
         },
         {
-            name: Oana Balmau,
+            name: 'Oana Balmau',
             university: 'McGill University',
             image: '/coreTeam/oanabalmau.jpeg',
             linkedin: 'https://www.linkedin.com/in/oanabalmau/'
