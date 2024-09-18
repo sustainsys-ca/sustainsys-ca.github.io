@@ -4,7 +4,6 @@ const coFacultyMembers = {
     members: [
         {
             name: 'Essam Mansour',
-            <a href="https://www.mcgill.ca/" target="_blank" className="text-blue-600 hover:underline">McGill University</a>
             university: 'Concordia University',
             image: '/coreTeam/essammansour.jpeg',
             linkedin: 'https://www.linkedin.com/in/emansour/'
