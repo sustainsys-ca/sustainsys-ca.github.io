@@ -23,37 +23,37 @@ const graduateStudents = {
         {
             name: 'Saeed Fathollahzadeh, PhD student',
             university: 'Concordia University',
-            image: '/studens/SaeedFathollahzadeh.jpg',
+            image: '/studens/SaeedFathollahzadeh.jpeg',
             linkedin: 'https://www.linkedin.com/in/saeed-fathollahzadeh-2760816b/'
         },
         {
             name: 'Rahma Nouaji, PhD student',
             university: 'McGill University',
-            image: '/students/RahmaNouaji.jpg',
+            image: '/students/RahmaNouaji.jpeg',
             linkedin: 'https://www.linkedin.com/in/rahma-nouaji/'
         },
         {
             name: 'Reham Omar, PhD student',
             university: 'Concordia University',
-            image: '/students/RehamOmar.jpg',
+            image: '/students/RehamOmar.jpeg',
             linkedin: 'https://www.linkedin.com/in/reham93/'
         },
         {
             name: 'Mohaddeseh Yaghoubpour, PhD student',
             university: 'McGill University',
-            image: '/students/MohaddesehYaghoubpour.jpg',
+            image: '/students/MohaddesehYaghoubpour.jpeg',
             linkedin: ''
         },
         {
             name: 'Yuqiu Zhang, PhD student',
             university: 'University of Toronto',
-            image: '/students/YuqiuZhang.jpg',
+            image: '/students/YuqiuZhang.jpeg',
             linkedin: 'https://www.linkedin.com/in/yuqiuzhang/'
         },
         {
             name: 'Shiquan Zhang, PhD student',
             university: 'University of Toronto',
-            image: '/students/ShiquanZhang.jpg',
+            image: '/students/ShiquanZhang.jpeg',
             linkedin: 'www.linkedin.com/in/shiquan-zhang-0535752bb'
         },
     ]
