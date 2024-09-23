@@ -16,6 +16,7 @@ export default function Trainees() {
                         <TeamCard 
                             key={member.name}
                             name={member.name} 
+                            type={member.type}
                             university={member.university} 
                             image={member.image} 
                             linkedin={member.linkedin}
