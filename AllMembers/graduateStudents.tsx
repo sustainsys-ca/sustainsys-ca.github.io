@@ -3,10 +3,10 @@ const graduateStudents = {
     description: '',
     members: [
         {
-            name: 'x',
-            university: '',
+            name: 'Michail Bachras',
+            university: 'University of Toronto',
             image: '',
-            linkedin: ''
+            linkedin: 'https://www.linkedin.com/in/michalis-bachras-82446a155'
         },
     ]
 };
