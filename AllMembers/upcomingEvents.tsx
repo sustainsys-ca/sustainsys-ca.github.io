@@ -10,7 +10,7 @@ Technical presentations from guest speakers in industry and academia will be aug
 
 The workshop is co-organized by Bettina Kemme, Essam Mansour, Hans-Arno Jacobsen, Natalie Enright-Jerger, Oana Balmau, Semih Salihoğlu
 ", 
-       imageUrl: "" 
+       imageUrl: "/events/SDSDS2024.jpeg" 
     },
 ];
 export default upcomingEvents;
