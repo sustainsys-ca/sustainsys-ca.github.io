@@ -7,7 +7,6 @@ const coFacultyMembers = {
             university: 'Concordia University',
             image: '/coreTeam/essammansour.jpeg',
             linkedin: 'https://www.linkedin.com/in/emansour/'
-            website: 'emansour.com'
         },
         {
             name: 'Hans-Arno Jacobsen',
